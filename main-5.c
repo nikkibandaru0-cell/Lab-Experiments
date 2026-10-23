@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+int choice;
+float celsius,fahrenheit;
+printf("\n1.fahrenheit to celsius:");
+printf("\n2.celsius to fahrenheit:");
+printf("\nEnter your choice");
+scanf("%d",&choice);
+if(choice==1)
+{
+printf("\nEnter temperature in fahrenheit");
+scanf("%f",&fahrenheit);
+      celsius=(fahrenheit-32)*5/9;
+      printf("\ntemperature in celsius=%.2f",celsius);
+}
+else if(choice==2)
+{
+printf("\nEnter temperature in celsius");
+scanf("%f",&celsius);
+      fahrenheit=(celsius*9/5)+32;
+      printf("\ntemperature in fahrenheit=%.2f",fahrenheit);
+}
+else
+{
+printf("Invalid choice");
+}
+}

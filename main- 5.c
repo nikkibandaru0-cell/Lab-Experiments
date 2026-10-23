@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c,d;
+printf("\nEnter a,b,c values:");
+scanf("%d%d%d",&a,&b,&c);
+d=(a+b+c)/3;
+printf("\naverage of 3 numbers is %d",d);
+}
