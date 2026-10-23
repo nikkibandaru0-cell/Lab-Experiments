@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+float a,b;
+printf("\nEnter a value:");
+scanf("%f",&a);
+b=sqrt(a);
+printf("square root=%.2f",b);
+}
