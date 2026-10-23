@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int a,b,c;
+float root1,root2;
+printf("Enter values of a,b,c:");
+scanf("%d%d%d",&a,&b,&c);
+root1=(-b+sqrt(pow(b,2)-4*a*c))/2*a;
+root2=(-b-sqrt(pow(b,2)-4*a*c))/2*a;
+printf("root1=%.2f  root 2=%.2f",root1,root2);
+}
