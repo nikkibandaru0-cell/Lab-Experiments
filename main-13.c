@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c,maximum_number;
+printf("Enter values of any three numbers:");
+scanf("%d%d%d",&a,&b,&c);
+maximum_number=(a>b)?((a>c)?a:c):((b>c)?b:c);
+printf("Maximum of three numbers=%d",maximum_number);
+}
